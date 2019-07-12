@@ -1,0 +1,6 @@
+{
+    "_acme-challenge.d.example.com.": ["file://d-challenge", "TXT"], 
+    "_acme-challenge.c.example.com.": ["file://c-challenge", "TXT"],
+    "c.example.com." : [0, "issue", "letsencrypt.org", "CAA"],
+    "d.example.com." : [0, "issue", "letsencrypt.org", "CAA"]
+}
